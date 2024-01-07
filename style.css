@@ -1,0 +1,48 @@
+main{
+          margin: 50px 140px;
+          
+
+}
+
+.for-baner{
+          background-image:
+          url("./images/Banner\ Image.png");
+          width: 1320px;
+          height: 600px;
+          border-radius: 16px;
+          margin-left: auto;
+          margin-right: auto;
+          display: flex;
+          align-items: center;
+          position: relative;
+          justify-content: center;
+}
+
+.baner{
+      
+}
+.baner-h3{
+          color: #FFF;
+          text-align: center;
+          font-family: Merriweather;
+          font-size: 32px;
+          font-style: normal;
+          margin: 117px 530px 10px;
+          font-weight: 400;
+          line-height: normal;
+}
+.baner-h1{
+          color: #FFF;
+          text-align: center;
+          font-family: Merriweather;
+          font-size: 72px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 95px;
+          margin: 0px 344px 117px;
+}
+.new-year{
+          text-align: center;
+          /* margin-left: auto;
+          margin-right: auto; */
+}
