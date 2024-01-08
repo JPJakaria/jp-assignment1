@@ -6,8 +6,8 @@ main{
 }
 
 .for-baner{
-          background-image:
-          url("./images/Banner\ Image.png");
+          /* background-image : linear gradient (), url{*image inside*} */
+          background-image: linear-gradient(#070211, #07021100), url(./images/Bimage.png);
           width: 1320px;
           height: 600px;
           border-radius: 16px;
@@ -81,12 +81,15 @@ main{
 
 .wellcome{
           
-          background-image: url(./images/Vectorrr.png);
+          background-image:linear-gradient(#070211, #07021100) ,url(./images/Vectorrr.png);
           width: 1320px;
           height: 600px;
-          flex-shrink: 0;
+          display: flex; justify-content:space-between;
+          align-items:center;
+          margin-top: 120px;
           margin-left: auto;
           margin-right: auto;
+          
           
 
 }
@@ -113,4 +116,29 @@ main{
           font-style: normal;
           font-weight: 400;
 }
+
+.wb{
+          color:white;
+          background: none;
+          border: 0;
+          font-family: Inter;
+          font-size: 20px;
+          font-weight: 700;
+}
+.year-png{
+          margin-right: 138px;
+          margin-left: 0px;
+}
+
+.pdt{
+         text-align: center;
+         max-width: 1320px;
+         max-height: 482px;
+
+         background-image: linear-gradient(#FF0000, #FF000000);
+         margin: 120px auto;
+         padding: 100px;
+}
+
+
 
