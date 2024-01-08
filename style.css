@@ -174,12 +174,76 @@ main{
 .best-offer{
           display: flex;
           align-items: center;
-          justify-content: center;
+          justify-content:center;
           /* align-content: space-between; */
           width: 1320px;
           height: 600px;
           margin-left: auto;
-          margin-right: auto;
-          
+          margin-right: auto;     
 }
 
+.img{
+          border-radius: 30px solid red;
+          margin: 0px 150px 0px 150px;
+          border-radius: 463px;
+          border: 20px solid #F00;
+          padding: 40px;
+          justify-items: center;
+          align-items:center;
+}
+
+#o-h1{
+          color: #070211;
+          font-family: Merriweather;
+          font-size: 48px;
+          font-weight: 900;
+}
+#o-h2{
+          color: #F00;
+          font-family: Inter;
+          font-size: 24px;
+          font-weight: 500;        
+}
+#o-p{
+          color: rgba(7, 2, 17, 0.60);
+          font-family: Inter;
+          font-size: 20px;      
+}
+
+#w-h1{
+          color: #F00;
+          font-family: Inter;
+          font-size: 48px;
+}
+
+#w-p{
+          color: rgba(7, 2, 17, 0.60);
+          font-family: Inter;
+          font-size: 20px;
+
+}
+
+/* Holidays section Css */
+
+.holiday{
+          text-align: center;
+}
+
+.holi-h1{
+          color: #F00;
+          font-family: Merriweather;
+          font-size: 72px;
+}
+
+.holi-h3{
+          color: #070211;
+          font-family: Inter;
+          font-size: 24px;       
+}
+
+.holi-p{
+          color: rgba(7, 2, 17, 0.60);
+          font-family: Inter;
+          font-size: 20px;
+
+}
