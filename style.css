@@ -88,9 +88,10 @@ main{
 
 .wellcome{
           
-          background-image:linear-gradient(#070211, #07021100) ,url(./images/Vectorrr.png);
+          background-image:linear-gradient(to right, #070211, #07021100) ,url(./images/Vectorrr.png);
           width: 1320px;
           height: 600px;
+          border-radius: 16px;
           display: flex;
           justify-content:space-between;
           align-items:center;
@@ -138,17 +139,21 @@ main{
           margin-left: 0px;
 }
 
+/* PDT Secton */
+
 .pdt{
-         width: 1320px;
-         height: 482px;
-         background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-         margin: 120px auto;
-         justify-content:center;
-         align-items:center;
+          width: 1320px;
+          height: 482px;
+          border-radius: 16px;
+          background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+          margin: 120px auto;
+          padding:100px 0px ;
+          justify-content:center;
+          align-items:center;
 }
 
 .pdt .pdt-text{
-          color: #F00;
+          color: #070211;
           text-align: center;
           font-family: Inter;
           font-size: 32px;
@@ -157,19 +162,27 @@ main{
           align-items: center;
           justify-content: center;
           margin-top: 80px;
+}
 
+.pdt-span{
+        color: #F00;
+}
+
+.pdt-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 .pdt-btn{
-          display:flex;
+          font-size: 18px;
           padding: 16px 32px;
-          justify-content: center;
-          align-items: center;
           border-radius: 8px;
           background: #F00;
           border: none;
           color: white;
 }
+
 
 /* Best Offer Section */
 
@@ -252,6 +265,14 @@ main{
           font-size: 20px;
 }
 
+.bonus{
+        display: flex;
+}
+
+.bonus5{
+        background-image: url(./images/Rg.png);
+        background-repeat: no-repeat;
+}
  /* Photo Gallery CSS  */
 
  .portfolio{
@@ -375,11 +396,17 @@ main{
 }
 
 .loc{
-          color: white;
+        color: white;
+        font-family: Inter;
+        font-size: 24px;
+
 }
 
 .c-li{
-          color: white;
+        color: white;       
+        font-family: Inter;
+        font-size: 24px;
+
 }
 
 .icon{
@@ -398,8 +425,11 @@ main{
 }
 
 .copyright{
-          color: white;
-          display: flex;
+        color: white;
+        display: flex;
+        font-family: Inter;
+        font-size: 24px;
+
           
           
 }
