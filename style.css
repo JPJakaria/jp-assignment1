@@ -171,6 +171,8 @@ main{
           color: white;
 }
 
+/* Best Offer Section */
+
 .best-offer{
           display: flex;
           align-items: center;
@@ -227,8 +229,9 @@ main{
 
 .holiday{
           text-align: center;
-          margin-top: 120px;
+          margin: 120px auto;
           justify-content: center;
+          width: 1320px;
 }
 
 .holi-h1{
@@ -247,6 +250,83 @@ main{
           color: rgba(7, 2, 17, 0.60);
           font-family: Inter;
           font-size: 20px;
+}
+
+ /* Photo Gallery CSS  */
+
+ .portfolio{
+          width: 1320px;
+         margin: 120px auto 0px;
+         justify-content:center;
+         align-items:center;        
+ }
+
+.p-ig{
+          display:flex;
+          justify-content: center;
+          flex-wrap: wrap;
+}
+
+.port-h2{
+          color: #F00;
+          font-family: Inter;
+          font-size: 24px;
+}
+
+.port-h1{
+          color: #070211;
+          font-family: Merriweather;
+          font-size: 48px;
+}
+
+.port-p{
+          color: rgba(7, 2, 17, 0.60);
+          font-family: Inter;
+          font-size: 20px;
+
+}
+
+.ig{
+          margin: 24px;
+          
+}
+
+/* subs-news section  */
+
+.subs-news{
+          width: 1320px;
+          height: 616px;
+          margin: 120px auto 120px;
+          text-align: center;
+          border-radius: 16px;
+          background: rgba(255, 0, 0, 0.05);
+          padding: 80px 220px;
+}
+
+.subs-img{
+          width: 150px;
+          height: 150px;
+}
+
+.subs-h1{
+          color: #070211;
+          text-align: center;
+          font-family: Merriweather;
+          font-size: 48px;
+}
+
+.subs-p{
+          color: rgba(7, 2, 17, 0.60);
+          text-align: center;
+          font-family: Inter;
+          font-size: 20px;
+}
+
+.in-btn{
+          width: 648px;
+          height: 72px;
+          text-align: center;
+          align-items: center;
 }
 
 /* footer Css */
@@ -287,23 +367,12 @@ main{
 
 .cpy-un{
           display: flex;
-          justify-content: space-between
+          justify-content: space-between;
 }
 
 .copyright{
           color: white;
           display: flex;
           
-}
-
-.p-ig{
-          display:flex;
-          justify-content: center;
-          flex-wrap: wrap;
-          /* margin-left: auto;
-          margin-right: auto; */
-}
-
-.ig{
-          margin: 24px;
+          
 }
