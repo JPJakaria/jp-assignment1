@@ -227,6 +227,8 @@ main{
 
 .holiday{
           text-align: center;
+          margin-top: 120px;
+          justify-content: center;
 }
 
 .holi-h1{
@@ -245,5 +247,63 @@ main{
           color: rgba(7, 2, 17, 0.60);
           font-family: Inter;
           font-size: 20px;
+}
 
+/* footer Css */
+
+.footer{
+          background-color: #070211;
+          padding: 100px 150px 100px;
+}
+
+.info{
+          display:flex ;
+          justify-content: space-between;
+          
+}
+
+.hr{
+          opacity: 15%;
+          color: #FFF;
+}
+
+.loc{
+          color: white;
+}
+
+.c-li{
+          color: white;
+}
+
+.icon{
+          display: flex;
+          justify-content: center;
+          padding: 48px 0px;
+}
+
+.i-a{
+          margin: 0px 24px;
+}
+
+.cpy-un{
+          display: flex;
+          justify-content: space-between
+}
+
+.copyright{
+          color: white;
+          display: flex;
+          
+}
+
+.p-ig{
+          display:flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          /* margin-left: auto;
+          margin-right: auto; */
+}
+
+.ig{
+          margin: 24px;
 }
